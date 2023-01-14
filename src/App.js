@@ -1,5 +1,5 @@
 import './App.css';
-import CampsitesDirectoryPage from '../src/pages/CampsitesDirectoryPage.js';
+import CampsitesDirectoryPage from './pages/CampsitesDirectoryPage.js';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
