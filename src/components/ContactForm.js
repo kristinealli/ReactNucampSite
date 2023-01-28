@@ -9,7 +9,7 @@ const ContactForm = () => {
         resetForm();
     };
     return (
-        <Formik
+        <Formik 
             initialValues={{
                 firstName: '',
                 lastName: '',
