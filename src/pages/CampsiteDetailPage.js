@@ -6,8 +6,6 @@ import CommentsList from '../features/comments/CommentsList';
 import SubHeader from '../components/SubHeader';
 import { useSelector } from 'react-redux';
 
-
-
 const CampsiteDetailPage = () => {
     const { campsiteId } = useParams();
     const campsite = useSelector(selectCampsiteById(campsiteId));

@@ -23,7 +23,6 @@ const CommentForm = ({ campsiteId }) => {
         dispatch(addComment(comment));
         setModalOpen(false);
     };
-    
     return(
         <>
             <Button outline onClick={() => setModalOpen(true)}>
